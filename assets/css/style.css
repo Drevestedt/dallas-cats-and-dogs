@@ -8,12 +8,17 @@ body {
   background-color: #ff8620;
 }
 
-.shopping-basket{
+.css-shopping-basket{
   list-style: none;         
 }
 
+.css-hamburger-menu {
+  border: none;
+}
+
+/* Media screens */
 @media screen and (min-width: 992px) {
-  .center-on-page {
+  .css-custom-nav {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
