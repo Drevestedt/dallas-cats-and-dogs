@@ -1,6 +1,6 @@
 # Dallas Cats & Dogs
 
-## This sites purpose is for Dallas residents to have a local place to shop food and accessories for their cats and dogs. The residents can both walk into a physical shop, or choose to shop online in the Webshop and have their products delivered to their door. Technologies used are HTML, CSS, and Bootstrap
+## This sites purpose is for Dallas residents to have a local place to shop food and accessories for their cats and dogs. The residents can both walk into a physical store, or choose to shop online in the Webshop and have their products delivered to their door. Technologies used are HTML, CSS, and Bootstrap.
 
 ## Key features:
 - Hero section to immediately understand what is offered
