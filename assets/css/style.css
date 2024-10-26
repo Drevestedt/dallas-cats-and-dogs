@@ -1,0 +1,9 @@
+/* Global styles */
+body {
+  background-color: black;
+}
+
+/* Navbar style */
+.shopping-basket{
+  list-style: none;         
+}
