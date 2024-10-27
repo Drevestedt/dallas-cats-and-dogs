@@ -27,8 +27,12 @@ body {
 #hero {
   background: url(../images/hero.webp);
   background-color: #1f1f1f;
-  min-height: 500px;
-  background-position: 46% 48%;
+  min-height: 150px;
+  background-position: 50% 40%;
+}
+
+#hero section {
+  background-color: rgba(31,31,31, 0.8);
 }
 
 #hero h1 {
@@ -44,10 +48,12 @@ body {
   color: black;
   border: none;
   border-radius: 0;
+  margin-bottom: 6%;
 }
 
 /* Media screens */
 @media screen and (min-width: 992px) {
+  /* Navbar */
   .css-custom-nav {
     position: absolute;
     left: 50%;
@@ -57,5 +63,31 @@ body {
 
   .css-custom-nav .nav-item {
     margin-right: 2rem;
+  }
+
+  /* Hero section */
+  #hero {
+    background: url(../images/hero.webp);
+    background-color: #1f1f1f;
+    min-height: 500px;
+    background-position: 46% 48%;
+    padding: 1% 3%;
+  }
+
+  #hero h1 {
+
+  }
+
+  #hero h2 {
+
+  }
+
+  #hero button {
+    background-color: #ff8620;
+    color: black;
+    border: none;
+    border-radius: 0;
+    margin-top: 150px;
+    margin-bottom: 4%;
   }
 }
