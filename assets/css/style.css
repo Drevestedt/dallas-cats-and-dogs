@@ -1,4 +1,11 @@
 /* Global styles */
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
 body {
   background-color: black;
 }
@@ -22,5 +29,10 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    margin-left: 2rem;
+  }
+
+  .css-custom-nav .nav-item {
+    margin-right: 2rem;
   }
 }
