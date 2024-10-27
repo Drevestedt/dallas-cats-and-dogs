@@ -23,6 +23,22 @@ body {
   border: none;
 }
 
+/* Hero section */
+#hero h1 {
+  color: #c74810;
+}
+
+#hero h2 {
+  color: #cd9c8a;
+}
+
+#hero button {
+  background-color: #ff8620;
+  color: black;
+  border: none;
+  border-radius: 0;
+}
+
 /* Media screens */
 @media screen and (min-width: 992px) {
   .css-custom-nav {
