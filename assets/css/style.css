@@ -16,7 +16,7 @@ body {
 }
 
 .css-shopping-basket{
-  list-style: none;         
+  list-style: none;
 }
 
 .css-hamburger-menu {
@@ -66,6 +66,10 @@ body {
 
   .css-custom-nav .nav-item {
     margin-right: 2rem;
+  }
+
+  .css-shopping-basket {
+    margin-left: 90%;
   }
 
   /* Hero section */
