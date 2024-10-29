@@ -83,6 +83,21 @@ body {
   border-radius: 0;
 }
 
+/* Footer */
+#social-networks-contact {
+  display: flex;
+  justify-content: center;
+}
+
+#social-networks-contact li {
+  list-style: none;
+  padding: 0 5%;
+}
+
+#social-networks-contact a {
+  color: #cd9c8a;
+}
+
 /* Media screens */
 @media screen and (min-width: 992px) {
   /* Navbar */
