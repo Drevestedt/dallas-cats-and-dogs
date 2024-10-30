@@ -84,17 +84,30 @@ body {
 }
 
 /* Footer */
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 3% 0;
+}
+
 #social-networks-contact {
   display: flex;
   justify-content: center;
+  margin: auto 0;
 }
 
 #social-networks-contact li {
   list-style: none;
   padding: 0 5%;
+  font-size: larger;
 }
 
 #social-networks-contact a {
+  color: #cd9c8a;
+}
+
+footer p {
+  margin: 3% 0;
   color: #cd9c8a;
 }
 
