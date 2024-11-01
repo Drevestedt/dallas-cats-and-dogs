@@ -86,30 +86,34 @@ body {
 }
 
 /* Contact links */
-#social-networks-contact {
+#contact-mobile {
   background-color: #1f1f1f;
 }
 
-#social-networks-contact h2 {
+#contact-mobile h2 {
   color: #c14812;
   text-align: center;  
   padding-top: 1%;
 }
 
-#social-networks-contact ul {
+#contact-mobile ul {
   display: flex;
   justify-content: center;
   padding-bottom: 1%;
 }
 
-#social-networks-contact li {
+#contact-mobile li {
   list-style: none;
   padding: 0 5%;
   font-size: larger;
 }
 
-#social-networks-contact a {
+#contact-mobile a {
   color: #cd9c8a;
+}
+
+#contact-desktop {
+  display: none;
 }
 
 /* Footer */
@@ -161,13 +165,18 @@ footer p {
   }
 
   /* Social networks and contact */
-  #social-networks-contact li {
-    padding: 0 3%;
+  #contact-mobile {
+    display: none;
+  }
+
+  #contact-desktop {
+    display: block;
+    color: #ff8620;
   }
 
   /* Footer */
   footer {
-    padding: 1% 0;
+    padding: 5px 0;
   }
 }
 
@@ -175,18 +184,10 @@ footer p {
   #products .card-text {
     min-height: 80px;
   }
-
-  #social-networks-contact li {
-    padding: 0 2%;
-  }
 }
 
 @media screen and (min-width: 2560px) {
   #hero {
     padding: 1% 3%;
-  }
-
-  #social-networks-contact li {
-    padding: 0 2%;
   }
 }
