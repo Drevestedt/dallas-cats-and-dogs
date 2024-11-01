@@ -171,7 +171,23 @@ footer p {
 
   #contact-desktop {
     display: block;
-    color: #ff8620;
+  }
+
+  #contact-desktop div {
+    color: #f68221;
+  }
+
+  .inline-text {
+    display: flex;
+    gap: 20px;
+  }
+
+  #contact-desktop .card {
+    background-color: #1f1f1f;
+  }
+
+  .css-custom-card img {
+    border-radius: 0;
   }
 
   /* Footer */
