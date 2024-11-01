@@ -177,9 +177,48 @@ footer p {
     color: #f68221;
   }
 
-  .inline-text {
+  #contact-desktop .card-body {
+    position: relative;
+  }
+
+  .css-inline-text {
     display: flex;
     gap: 20px;
+  }
+
+  .css-address {
+    margin-bottom: 3%;
+  }
+
+  .css-address > p {
+    margin: 0;
+  }
+
+  .css-contact p {
+    margin: 3px;
+  }
+
+  .css-social-desktop ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .css-social-desktop li {
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .css-social-desktop a {
+    color: #cd9c8a;
   }
 
   #contact-desktop .card {
