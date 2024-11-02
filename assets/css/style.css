@@ -87,6 +87,11 @@ body {
 }
 
 /* Contact */
+#contact .card, #contact img {
+  border-radius: 0;
+  border: none;
+}
+
 #contact .card-body {
   background-color: #1f1f1f;
 }
