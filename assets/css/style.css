@@ -39,6 +39,7 @@ body {
 /* Hero section */
 #hero {
   background: url(../images/hero.webp);
+  background-size: cover;
   background-color: #1f1f1f;
   min-height: 150px;
   background-position: 50% 40%;
@@ -85,35 +86,61 @@ body {
   border-radius: 0;
 }
 
-/* Contact links */
-#contact-mobile {
-  background-color: #1f1f1f;
+/* Contact */
+#contact div {
+  color: #f68221;
 }
 
-#contact-mobile h2 {
-  color: #c14812;
-  text-align: center;  
-  padding-top: 1%;
+#contact .card-body {
+  position: relative;
 }
 
-#contact-mobile ul {
+.css-inline-text {
+  display: flex;
+  gap: 20px;
+}
+
+.css-address {
+  margin-bottom: 3%;
+}
+
+.css-address > p {
+  margin: 0;
+}
+
+.css-contact p {
+  margin: 3px;
+}
+
+.css-contact-socialul {
   display: flex;
   justify-content: center;
-  padding-bottom: 1%;
 }
 
-#contact-mobile li {
+.css-contact-social li {
   list-style: none;
-  padding: 0 5%;
-  font-size: larger;
+  padding: 10px;
+  font-size: large;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
-#contact-mobile a {
+.css-contact-social a {
   color: #cd9c8a;
 }
 
-#contact-desktop {
-  display: none;
+#contact .card {
+  background-color: #1f1f1f;
+}
+
+.css-custom-card img {
+  border-radius: 0;
 }
 
 /* Footer */
@@ -149,6 +176,7 @@ footer p {
   /* Hero section */
   #hero {
     background: url(../images/hero.webp);
+    background-size: cover;
     background-color: #1f1f1f;
     min-height: 400px;
     background-position: 46% 48%;
@@ -160,89 +188,12 @@ footer p {
     color: black;
     border: none;
     border-radius: 0;
-    margin-top: 150px;
+    margin-top: 10vh;
     margin-bottom: 4%;
-  }
-
-  /* Social networks and contact */
-  #contact-mobile {
-    display: none;
-  }
-
-  #contact-desktop {
-    display: block;
-  }
-
-  #contact-desktop div {
-    color: #f68221;
-  }
-
-  #contact-desktop .card-body {
-    position: relative;
-  }
-
-  .css-inline-text {
-    display: flex;
-    gap: 20px;
-  }
-
-  .css-address {
-    margin-bottom: 3%;
-  }
-
-  .css-address > p {
-    margin: 0;
-  }
-
-  .css-contact p {
-    margin: 3px;
-  }
-
-  .css-social-desktop ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .css-social-desktop li {
-    list-style: none;
-    padding: 10px;
-    font-size: large;
-    background-color: #1f1f1f;
-    border-radius: 50%;
-    margin: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-  }
-
-  .css-social-desktop a {
-    color: #cd9c8a;
-  }
-
-  #contact-desktop .card {
-    background-color: #1f1f1f;
-  }
-
-  .css-custom-card img {
-    border-radius: 0;
   }
 
   /* Footer */
   footer {
     padding: 5px 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  #products .card-text {
-    min-height: 80px;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  #hero {
-    padding: 1% 3%;
   }
 }
