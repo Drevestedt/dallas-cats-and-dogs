@@ -87,60 +87,20 @@ body {
 }
 
 /* Contact */
-#contact div {
+#contact .card-body {
+  background-color: #1f1f1f;
+}
+
+#contact h3, #contact h5, #contact p, #contact a {
   color: #f68221;
 }
 
-#contact .card-body {
-  position: relative;
+#contact p {
+  margin-bottom: 0;
 }
 
-.css-inline-text {
-  display: flex;
-  gap: 20px;
-}
-
-.css-address {
-  margin-bottom: 3%;
-}
-
-.css-address > p {
-  margin: 0;
-}
-
-.css-contact p {
-  margin: 3px;
-}
-
-.css-contact-socialul {
-  display: flex;
-  justify-content: center;
-}
-
-.css-contact-social li {
-  list-style: none;
-  padding: 10px;
-  font-size: large;
-  background-color: #1f1f1f;
-  border-radius: 50%;
-  margin: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-}
-
-.css-contact-social a {
-  color: #cd9c8a;
-}
-
-#contact .card {
-  background-color: #1f1f1f;
-}
-
-.css-custom-card img {
-  border-radius: 0;
+#contact p + p {
+  margin-top: 0;
 }
 
 /* Footer */
