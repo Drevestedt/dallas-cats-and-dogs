@@ -77,6 +77,7 @@ body {
 
 #products .card-text {
   color: #ff8620;
+  min-height: 80px;
 }
 
 #products .btn-secondary {
@@ -106,6 +107,12 @@ body {
 
 #contact p + p {
   margin-top: 0;
+}
+
+.card-image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer */
