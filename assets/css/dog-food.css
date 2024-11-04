@@ -66,6 +66,11 @@ main .card-text {
   border-radius: 0;
 }
 
+.btn-primary:hover {
+  background-color: #cc6418;
+  color: black;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -79,6 +84,12 @@ footer p {
 }
 
 /* Media screens */
+@media screen and (min-width: 768px) {
+  main .card-text {
+    min-height: 120px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   /* Navbar */
   .css-custom-nav {
@@ -96,6 +107,10 @@ footer p {
     margin-left: 90%;
   }
 
+  main .card-text {
+    min-height: 100px;
+  }
+  
   /* Footer */
   footer {
     padding: 5px 0;
