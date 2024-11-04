@@ -11,6 +11,11 @@ body {
 }
 
 /* Navbar section */
+.active-page-nav {
+  border-bottom: 2px solid #1f1f1f;
+  padding-bottom: 5px;
+}
+
 .css-navbar {
   background-color: #ff8620;
 }
@@ -64,6 +69,11 @@ body {
   margin-bottom: 6%;
 }
 
+#hero button:hover {
+  background-color: #cc6418;
+  color: white;
+}
+
 /* Animal products */
 #products h2 {
   display: none;
@@ -84,6 +94,11 @@ body {
   color: black;
   border: none;
   border-radius: 0;
+}
+
+#products .btn-secondary:hover {
+  background-color: #cc6418;
+  color: white;
 }
 
 /* Contact */

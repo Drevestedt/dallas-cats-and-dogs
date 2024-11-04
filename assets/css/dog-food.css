@@ -19,6 +19,11 @@ body {
   background-color: #ff8620;
 }
 
+.active-page-nav {
+  border-bottom: 2px solid #1f1f1f;
+  padding-bottom: 5px;
+}
+
 .css-shopping-basket{
   list-style: none;
 }
@@ -45,9 +50,10 @@ main h1 {
   text-align: center;
 }
 
-main .card {
+main .card, main .card-img-top {
   background-color: #1f1f1f;
   border: none;
+  border-radius: 0;
 }
 
 main .card-title {
@@ -68,7 +74,7 @@ main .card-text {
 
 .btn-primary:hover {
   background-color: #cc6418;
-  color: black;
+  color: white;
 }
 
 /* Footer */
