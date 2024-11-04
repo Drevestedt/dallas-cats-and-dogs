@@ -40,13 +40,30 @@ body {
 }
 
 /* Main */
-main {
-  height: 100%;
-}
-
 main h1 {
   color: #cd9c8a;
   text-align: center;
+}
+
+main .card {
+  background-color: #1f1f1f;
+  border: none;
+}
+
+main .card-title {
+  color: #ff8620;
+}
+
+main .card-text {
+  color: #ff8620;
+  font-size: larger;
+}
+
+.btn-primary {
+  background-color: #ff8621;
+  color: black;
+  border: none;
+  border-radius: 0;
 }
 
 /* Footer */
