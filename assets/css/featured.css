@@ -14,6 +14,10 @@ main h2 {
   color: #cd9c8a;
 }
 
+.card-img-top {
+  border-radius: 0;
+}
+
 /* Navbar section */
 .active-page-nav {
   border-bottom: 2px solid #1f1f1f;
@@ -59,12 +63,20 @@ main h2 {
   border-radius: 0;
 }
 
+.css-top-margin {
+  margin-top: 3%;
+}
+
+.css-bottom-margin {
+  margin-bottom: 3%;
+}
+
 #featured p {
   color: #ff8620;
 }
 
 #featured p + p {
-  font-size: larger;
+  font-size: larger;  
 }
 
 .css-custom-font-size {
@@ -97,6 +109,15 @@ footer p {
 
 /* Media screens */
 @media screen and (min-width: 992px) {
+  /* Global styles */
+  html, body {
+    height: 100%;
+  }
+
+  main {
+    height: 100%;
+  }
+
   /* Navbar */
   .css-custom-nav {
     position: absolute;
@@ -111,6 +132,11 @@ footer p {
 
   .css-shopping-basket {
     margin-left: 90%;
+  }
+
+  /* Main */
+  #featured .card-text {
+    min-height: 100px;
   }
 
   /* Footer */
