@@ -63,11 +63,11 @@ main h2 {
   border-radius: 0;
 }
 
-.css-top-margin {
+.css-margin-top {
   margin-top: 3%;
 }
 
-.css-bottom-margin {
+.css-margin-bottom {
   margin-bottom: 3%;
 }
 
@@ -108,16 +108,22 @@ footer p {
 }
 
 /* Media screens */
+@media screen and (min-width: 768px) {
+  .css-margin-top {
+    margin-top: 0%;
+  }
+  
+  .css-margin-bottom {
+    margin-bottom: 3%;
+  }
+
+  #featured .css-card-text {
+    min-height: 115px;
+  }
+
+}
+
 @media screen and (min-width: 992px) {
-  /* Global styles */
-  html, body {
-    height: 100%;
-  }
-
-  main {
-    height: 100%;
-  }
-
   /* Navbar */
   .css-custom-nav {
     position: absolute;
@@ -135,8 +141,8 @@ footer p {
   }
 
   /* Main */
-  #featured .card-text {
-    min-height: 100px;
+  #featured .css-card-text {
+    min-height: 0;
   }
 
   /* Footer */
