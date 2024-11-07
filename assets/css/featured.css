@@ -113,6 +113,10 @@ footer p {
     min-height: 115px;
   }
 
+  .css-custom-height {
+    min-height: 86px;
+  } 
+
 }
 
 @media screen and (min-width: 992px) {
@@ -133,21 +137,45 @@ footer p {
   }
 
   /* Main */
-  #featured .card {
+  #featured img {
     transform: scale(0.8);
     transform-origin: center;
+  }
+
+  .css-margin-bottom {
+    margin-bottom: 2%;
   }
 
   #featured .css-card-text {
     min-height: 0;
   }
 
-  .css-margin-bottom {
-    margin-bottom: 2.5%;
+  .css-custom-height {
+    min-height: 0;
   }
 
   /* Footer */
   footer {
     padding: 5px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #featured .btn-primary {
+    font-size: larger;
+  }
+
+  .css-custom-font-size {
+    font-size: x-large;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .css-custom-height {
+    min-height: 70px;
+  }
+
+  #featured .btn-primary {
+    font-size: larger;
   }
 }
