@@ -31,6 +31,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
     <!-- CSS link -->
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
@@ -52,6 +53,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Home page link -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 css-custom-nav">
             <li class="nav-item">
@@ -63,56 +65,34 @@
               >
             </li>
 
-            <!-- Cats dropdown -->
-            <li class="nav-item dropdown">
+            <!-- Food link -->
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle fs-5 page-nav"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="nav-link fs-5 active"
+                aria-current="page"
+                href="food.html"
+                >Food</a
               >
-                Cats
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Food</a></li>
-                <li><a class="dropdown-item" href="#">Accessories</a></li>
-              </ul>
             </li>
 
-            <!-- Dogs dropdown -->
-            <li class="nav-item dropdown">
+            <!-- Featured link -->
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle fs-5 page-nav"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="nav-link fs-5 active"
+                aria-current="page"
+                href="featured.html"
+                >Featured</a
               >
-                Dogs
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Food</a></li>
-                <li><a class="dropdown-item" href="#">Accessories</a></li>
-              </ul>
             </li>
 
+            <!-- Contact link -->
             <li class="nav-item">
               <a
                 class="nav-link fs-5 active page-nav"
                 aria-current="page"
-                href="#"
+                href="#contact"
                 >Contact</a
               >
-            </li>
-          </ul>
-
-          <!-- Shopping basket -->
-          <ul class="navbar-nav mb-2 mb-lg-0 css-shopping-basket">
-            <li class="nav-item fs-4">
-              <a class="nav-link active" href="#"
-                ><i class="fa-solid fa-cart-shopping"></i
-              ></a>
             </li>
           </ul>
         </div>
@@ -122,7 +102,7 @@
     <!-- Main -->
     <main>
       <!-- Header -->
-      <header id="hero" class="container">
+      <header id="hero" class="container mt-3">
         <section class="row">
           <div class="col-12 text-center">
             <h1 class="display-4 mt-4">Welcome to Dallas Cats & Dogs:</h1>
@@ -140,72 +120,31 @@
           </div>
         </section>
       </header>
+
       <!-- Animal products -->
       <section id="products" class="container">
         <h2>Products</h2>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-3 mt-3">
+        <div class="row text-center">
+          <div class="col-12 col-md-6 col-lg-6 my-3">
+
+            <!-- Cat and dog food -->
             <div class="card">
               <img
-                src="assets/images/dog-food.webp"
+                src="assets/images/food.webp"
                 alt="Dog eating dog food from a bowl"
               />
               <div class="card-body">
                 <p class="card-text">
-                  Great <strong>quality</strong> food for your dog from our
+                  Great <strong>quality</strong> food for your cat and dog from our
                   <strong>trusted</strong> distributors.
                 </p>
-                <a href="dog-food.html" class="btn btn-secondary">Dog food</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mt-3">
-            <div class="card">
-              <img
-                src="assets/images/cat-food.webp"
-                alt="Cat eating cat food from a bowl"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Great <strong>quality</strong> food for your cat from our
-                  <strong>trusted</strong> distributors.
-                </p>
-                <a href="" class="btn btn-secondary">Cat food</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mt-3">
-            <div class="card">
-              <img
-                src="assets/images/dog-accessories.webp"
-                alt="Dog walking outside with a bone in its mouth"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Great <strong>quality</strong> accessories for your dog from
-                  our <strong>trusted</strong> distributors.
-                </p>
-                <a href="" class="btn btn-secondary">Dog accessories</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card">
-              <img
-                src="assets/images/cat-accessories.webp"
-                alt="Cat playing with a cat toy"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Great <strong>quality</strong> accessories for your cat from
-                  our <strong>trusted</strong> distributors.
-                </p>
-                <a href="" class="btn btn-secondary">Cat accessories</a>
+                <a href="food.html" class="btn btn-secondary">Food</a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- Contact section -->
       <section id="contact" class="container mb-3">
         <div class="row align-items-stretch">
