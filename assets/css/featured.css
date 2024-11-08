@@ -1,12 +1,13 @@
 /* Global styles */
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   font-family: "Nunito", sans-serif;
 }
 
-html, body {
+html,
+body {
   background-color: black;
 }
 
@@ -33,7 +34,7 @@ main h2 {
   background-color: #ff8620;
 }
 
-.css-shopping-basket{
+.css-shopping-basket {
   list-style: none;
 }
 
@@ -72,7 +73,7 @@ main h2 {
 }
 
 #featured p + p {
-  font-size: larger;  
+  font-size: larger;
 }
 
 .css-custom-font-size {
@@ -109,14 +110,9 @@ footer p {
     margin-bottom: 3%;
   }
 
-  #featured .css-card-text {
-    min-height: 115px;
-  }
-
-  .css-custom-height {
+  . {
     min-height: 86px;
-  } 
-
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -146,6 +142,10 @@ footer p {
     margin-bottom: 2%;
   }
 
+  #featured .card-title {
+    font-size: 180%;
+  }
+
   #featured .css-card-text {
     min-height: 0;
   }
@@ -165,6 +165,10 @@ footer p {
     font-size: larger;
   }
 
+  #featured .card-title {
+    font-size: 200%;
+  }
+
   .css-custom-font-size {
     font-size: x-large;
   }
@@ -177,5 +181,9 @@ footer p {
 
   #featured .btn-primary {
     font-size: larger;
+  }
+
+  #featured .card-title {
+    font-size: 250%;
   }
 }
