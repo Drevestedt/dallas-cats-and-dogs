@@ -176,21 +176,16 @@ footer p {
 }
 
 /* Media screens */
+@media screen and (min-width: 768px) {
+  #products .card-text {
+    min-height: 100px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   /* Navbar */
-  .css-custom-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: 2rem;
-  }
-
-  .css-custom-nav .nav-item {
-    margin-right: 2rem;
-  }
-
-  .css-shopping-basket {
-    margin-left: 90%;
+  .nav-item {
+    margin-right: 1rem;
   }
 
   /* Hero section */
@@ -210,6 +205,12 @@ footer p {
     border-radius: 0;
     margin-top: 10vh;
     margin-bottom: 4%;
+  }
+
+  /* Product section */
+  #products .row {
+    display: flex;
+    justify-content: center;
   }
 
   #social-networks {
