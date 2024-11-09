@@ -1,85 +1,24 @@
-/* Global styles */
-/* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-* {
-  font-family: "Nunito", sans-serif;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: black;
-}
-
-/* Navbar section */
-.css-navbar {
-  background-color: #ff8620;
-}
-
-.active-page-nav {
-  border-bottom: 2px solid #1f1f1f;
-  padding-bottom: 5px;
-}
-
-.page-nav:hover {
-  border-bottom: 2px solid #1f1f1f;
-  padding-bottom: 5px;
-}
-
-.css-shopping-basket{
-  list-style: none;
-}
-
-.css-hamburger-menu {
-  border: none;
-}
-
-.dropdown-menu {
-  background-color: #1f1f1f;
-}
-
-.dropdown-menu a {
-  color: #ff8620;
-}
-
-.dropdown-menu a:hover {
-  background-color: #cd9c8a;
-}
-
 /* Main */
-main h1 {
-  color: #cd9c8a;
+main h2 {
+  color: #ec6a4c;
   text-align: center;
 }
 
+/* Food section */
 main .card, main .card-img-top {
   background-color: #1f1f1f;
   border: none;
   border-radius: 0;
 }
 
-main .card-title {
+#food .card-title {
   color: #ff8620;
+  font-size: xx-large;
 }
 
 main .card-text {
   color: #ff8620;
   font-size: larger;
-}
-
-.btn-primary {
-  background-color: #ff8621;
-  color: black;
-  border: none;
-  border-radius: 0;
-}
-
-.btn-primary:hover {
-  background-color: #cc6418;
-  color: white;
 }
 
 /* Footer */
@@ -96,32 +35,10 @@ footer p {
 
 /* Media screens */
 @media screen and (min-width: 768px) {
-  main .card-text {
-    min-height: 120px;
-  }
+  
 }
 
 @media screen and (min-width: 992px) {
-  /* Navbar */
-  .css-custom-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: 2rem;
-  }
-
-  .css-custom-nav .nav-item {
-    margin-right: 2rem;
-  }
-
-  .css-shopping-basket {
-    margin-left: 90%;
-  }
-
-  main .card-text {
-    min-height: 100px;
-  }
-  
   /* Footer */
   footer {
     padding: 5px 0;
