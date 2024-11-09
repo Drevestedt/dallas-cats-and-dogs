@@ -21,7 +21,7 @@
       crossorigin="anonymous"
     />
     <!-- CSS link -->
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="stylesheet" href="assets/css/food.css" />
   </head>
 
@@ -66,7 +66,10 @@
 
             <!-- Featured link -->
             <li class="nav-item">
-              <a class="nav-link fs-5 active page-nav" aria-current="page" href="#"
+              <a
+                class="nav-link fs-5 active page-nav"
+                aria-current="page"
+                href="#"
                 >Accessories</a
               >
             </li>
@@ -88,12 +91,13 @@
     <!-- Main -->
     <main>
       <!-- Food section -->
-      <h2 class="mt-4 display-6">Dog food collection:</h2>
 
-      <section id="food" class="container text-center">
+      <!-- Dog food -->
+      <section id="dog-food" class="container text-center">
+        <h2 class="mt-4 display-6">Dog food collection:</h2>
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mt-3">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card mt-2">
               <img
                 src="assets/images/dog-food-standard.webp"
                 class="card-img-top"
@@ -102,13 +106,14 @@
               <div class="card-body">
                 <h5 class="card-title">Standard</h5>
                 <p class="card-text">
-                  Quality standard food that includes all the vitamins and
-                  minerals your dog needs during a day.
+                  Standard meat food that includes all the vitamins and minerals
+                  your dog needs during a day.
                 </p>
+                <p>$12.99 - 24.99</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-6">
             <div class="card mt-3">
               <img
                 src="assets/images/dog-food-premium.webp"
@@ -118,14 +123,14 @@
               <div class="card-body">
                 <h5 class="card-title">Premium</h5>
                 <p class="card-text">
-                  Quality food with a little more premium meat components, and
-                  all the vitamins and minerals that your dog needs during a
-                  day.
+                  Food with a little more premium meat components, and all the
+                  vitamins and minerals that your dog needs during a day.
                 </p>
+                <p>$15.99 - 27.99</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-12 col-lg-4">
             <div class="card mt-3">
               <img
                 src="assets/images/dog-food-luxury.webp"
@@ -134,10 +139,11 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Luxury</h5>
-                <p class="card-text">
-                  Quality food with the highest luxury meat component, and all
-                  the vitamins and minerals that your dog needs during a day.
+                <p class="card-text css-text-height">
+                  Food with the highest luxury meat component, and all the
+                  vitamins and minerals that your dog needs during a day.
                 </p>
+                <p>$18.99 - 31.99</p>
               </div>
             </div>
           </div>
@@ -150,15 +156,16 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Sensitive</h5>
-                <p class="card-text">
+                <p class="card-text css-text-height">
                   Special treated meat and minerals for dogs with sensitive
                   stomachs
                 </p>
+                <p>$16.99 - 23.99</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card my-3">
+            <div class="card mt-3">
               <img
                 src="assets/images/puppy-food.webp"
                 class="card-img-top"
@@ -166,9 +173,67 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Puppy</h5>
-                <p class="card-text">
-                  Special treated meat and minerals for puppys. 
+                <p class="card-text css-text-height">
+                  Special treated meat and minerals for puppys.
                 </p>
+                <p>$24.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cat food -->
+      <section id="cat-food" class="container text-center">
+        <h2 class="mt-4 display-6">Cat food collection:</h2>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card mt-2">
+              <img
+                src="assets/images/cat-food-std.webp"
+                class="card-img-top"
+                alt="cat food standard"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Standard</h5>
+                <p class="card-text">
+                  Standard meat food that includes all the vitamins and minerals
+                  your cat needs during a day.
+                </p>
+                <p>$21.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3">
+              <img
+                src="assets/images/cat-food-sensitive-webp"
+                class="card-img-top"
+                alt="cat food sensitive"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sensitive</h5>
+                <p class="card-text">
+                  Special treated meat and minerals for cats with sensitive
+                  stomachs.
+                </p>
+                <p>$24.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card my-3">
+              <img
+                src="assets/images/cat-food-kitten.webp"
+                class="card-img-top"
+                alt="cat food kitten"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kitten</h5>
+                <p class="card-text css-text-height">
+                  Special treated meat and minerals for kittens.
+                </p>
+                <p>$22.99</p>
               </div>
             </div>
           </div>
