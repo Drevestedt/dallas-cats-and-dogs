@@ -1,6 +1,6 @@
 /* Global styles */
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   font-family: "Nunito", sans-serif;
@@ -25,7 +25,7 @@ body {
   background-color: #ff8620;
 }
 
-.css-shopping-basket{
+.css-shopping-basket {
   list-style: none;
 }
 
@@ -91,7 +91,7 @@ body {
 
 #products .card-text {
   color: #ff8620;
-  min-height: 80px;
+  font-size: large;
 }
 
 #products .btn-secondary {
@@ -107,7 +107,8 @@ body {
 }
 
 /* Contact */
-#contact .card, #contact img {
+#contact .card,
+#contact img {
   border-radius: 0;
   border: none;
 }
@@ -116,7 +117,10 @@ body {
   background-color: #1f1f1f;
 }
 
-#contact h3, #contact h5, #contact p, #contact a {
+#contact h3,
+#contact h5,
+#contact p,
+#contact a {
   color: #f68221;
 }
 
@@ -146,17 +150,17 @@ body {
 }
 
 #social-networks li {
-    list-style: none;
-    padding: 10px;
-    font-size: large;
-    background-color: #1f1f1f;
-    border-radius: 50%;
-    margin: 0 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
+  list-style: none;
+  padding: 10px;
+  font-size: large;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
 /* Footer */
