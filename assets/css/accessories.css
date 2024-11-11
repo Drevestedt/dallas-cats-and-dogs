@@ -10,7 +10,20 @@ main h2 {
   margin-top: 10px;
 }
 
+#dog-bones {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
+#dog-toy-balls,
+#dog-squeek-toy,
+#dog-beds {
+  margin-bottom: 15px;
+}
+
+#dog-bowls {
+  margin-bottom: 5px;
+}
 
 #dog-accessories .card,
 #dog-accessories .card-img-top {
@@ -36,13 +49,53 @@ main h2 {
 
 /* Cat section */
 
+/* Media screens */
 @media screen and (min-width: 768px) {
+  /* Dog section */
+
+  /* Card margins */
+  #dog-bones,
+  #dog-toy-balls,
+  #dog-squeek-toy {
+    margin-top: 10px;
+    margin-bottom: 17px;
+  }
+
+  #dog-beds,
+  #dog-bowls {
+    margin-bottom: 6px;
+  }
+
+  /* Text heights */
   #dog-bones .card-text,
   #dog-toy-balls .card-text {
     min-height: 86px;
   }
 
   #dog-bowls .card-text {
+    min-height: 57px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Text heights */
+  #dog-bones .card-text,
+  #dog-toy-balls .card-text,
+  #dog-bowls .card-text {
+    min-height: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Text heights */
+  #dog-toy-balls .card-text {
+    min-height: 57px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* Text heights */
+  #dog-bones .card-text {
     min-height: 57px;
   }
 }
