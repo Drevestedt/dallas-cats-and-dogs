@@ -1,0 +1,15 @@
+main h2 {
+  color: #ec6a4c;
+  text-align: center;
+}
+
+/* Dog section */
+#dog-accessories h2 {
+  background-color: #1f1f1f;
+  padding: 2% 0;
+  margin-top: 10px;
+}
+
+
+
+/* Cat section */
