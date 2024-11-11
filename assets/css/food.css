@@ -10,6 +10,18 @@ main h2 {
   padding: 2% 0;
 }
 
+#standard {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+#premium,
+#luxury,
+#sensitive,
+#puppy {
+  margin-bottom: 15px;
+}
+
 #dog-food .card,
 #dog-food .card-img-top {
   background-color: #1f1f1f;
@@ -36,6 +48,16 @@ main h2 {
 #cat-food h2 {
   background-color: #1f1f1f;
   padding: 2% 0;
+}
+
+#cat-standard {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+#cat-sensitive,
+#cat-kitten {
+  margin-bottom: 15px;
 }
 
 #cat-food .card,
@@ -74,6 +96,11 @@ footer p {
 
 /* Media screens */
 @media screen and (min-width: 768px) {
+  /* Dog section */
+  #premium {
+    margin-top: 8px;
+  }
+
   #dog-food .card-title {
     font-size: x-large;
   }
@@ -86,9 +113,21 @@ footer p {
   #dog-food .css-text-height {
     min-height: 70px;
   }
+
+  /* Cat section */
+  #cat-sensitive,
+  #cat-kitten {
+    margin-top: 8px;
+  }
+
+  #cat-sensitive .card-text,
+  #cat-kitten .card-text {
+    min-height: 144px;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  /* Dog section */
   #dog-food .css-center-card {
     margin: 0 auto;
     display: flex;
@@ -104,8 +143,21 @@ footer p {
     min-height: 110px;
   }
 
+  /* Cat section */
+  #cat-sensitive .card-text,
+  #cat-kitten .card-text {
+    min-height: 115px;
+  }
+
   /* Footer */
   footer {
     padding: 5px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #cat-sensitive .card-text,
+  #cat-kitten .card-text {
+    min-height: 86px;
   }
 }
