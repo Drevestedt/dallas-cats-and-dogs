@@ -7,4 +7,4 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 - User-stories
 - License
 
-Wireframes
+### Wireframes
