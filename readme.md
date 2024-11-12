@@ -9,5 +9,6 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 
 ### Wireframes:
 
-#### Moblie
+#### - Moblie:
 
+![Mobile wireframe](assets/images/Dallas%20Cats%20&%20Dogs.png)
