@@ -4,8 +4,8 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 
 ## Table of contents
 
-- User-stories
 - Wireframes
+- User-stories
 - Testing
 - Deployment
 - License
@@ -32,3 +32,20 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 </table>
 
 #### Tablet:
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <h4>Landing page:</h4>
+      <img src="assets/images/Tablet.png" alt="Landing page wireframe" width="400px">
+    </td>
+    <td align="center" valign="top">
+      <h4>Food page:</h4>
+      <img src="assets/images/tablet food.png" alt="Food page wireframe" width="400px">
+    </td>
+    <td align="center" valign="top">
+      <h4>Accessories page:</h4>
+      <img src="assets/images/tablet accessories.png" alt="Accessories page wireframe" width="400px">
+    </td>
+  </tr>
+</table>
