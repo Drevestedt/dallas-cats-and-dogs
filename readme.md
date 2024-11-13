@@ -60,12 +60,12 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
     </td>
     <td align="center" valign="top">
       <h4>Food page:</h4>
-      <img src="assets/images" alt="Food page wireframe" width="600px">
+      <img src="assets/images/food-page-desktop.png" alt="Food page wireframe" width="600px">
     </td>
     <tr>
       <td align="center" valign="top">
         <h4>Accessories page:</h4>
-        <img src="assets/images" alt="Accessories page wireframe" width="600px">
+        <img src="assets/images/accessories-page-desktop.png" alt="Accessories page wireframe" width="600px">
       </td>
     </tr>
   </tr>
