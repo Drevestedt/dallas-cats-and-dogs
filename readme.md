@@ -205,11 +205,25 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
     </td>
      <td align="center" valign="top">
       <h4>Screenshot</h4>
-      <img src="">
+      <img src="assets/images/test-lightspeed-home-mobile.png">
     </td>
      <td align="center" valign="top">
       <h4>Notes</h4>
-      <p></p>
+      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <p>Food</p>
+    </td>
+    <td align="center" valign="top">
+      <p>Desktop</p>
+    </td>
+     <td align="center" valign="top">
+      <img src="assets/images/test-lightspeed-home-desktop.png">
+    </td>
+     <td align="center" valign="top">
+      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
     </td>
   </tr>
 </table>
