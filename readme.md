@@ -191,6 +191,29 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
   </tr>
 </table>
 
+#### Lighthouse Audit
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <h4>Page</h4>
+      <p>Home</p>
+    </td>
+    <td align="center" valign="top">
+      <h4>Size</h4>
+      <p>Mobile
+    </td>
+     <td align="center" valign="top">
+      <h4>Screenshot</h4>
+      <img src="">
+    </td>
+     <td align="center" valign="top">
+      <h4>Notes</h4>
+      <p></p>
+    </td>
+  </tr>
+</table>
+
 ## Deployment:
 
 ### Browser Compatibility
