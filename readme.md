@@ -4,8 +4,8 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 
 ## Table of contents
 
-- [Wireframes](#wireframes)
 - [User-stories](#user-stories)
+- [Wireframes](#wireframes)
 - [Technologies-used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -267,7 +267,7 @@ Frontend
       <img src="assets/images/test-lightspeed-food-mobile.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Syncing errors with Github, could not upload fixed complaints.</p>
+      <p>Some image resizing might be needed.</p>
     </td>
   </tr>
   <tr>
@@ -281,7 +281,7 @@ Frontend
       <img src="assets/images/test-lightspeed-food-desktop.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Syncing errors with Github, could not upload fixed complaints.</p>
+      <p>Some image resizing might be needed.</p>
     </td>
   </tr>
   <tr>
@@ -295,7 +295,7 @@ Frontend
       <img src="assets/images/test-lightspeed-accessories-mobile.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Syncing errors with Github, could not upload fixed complaints.</p>
+      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
     </td>
   </tr>
   <tr>
@@ -309,7 +309,7 @@ Frontend
       <img src="assets/images/test-lightspeed-accessories-desktop.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Syncing errors with Github, could not upload fixed complaints.</p>
+      <p>Minor complaint: Touch targets do not have sufficient size or spacing.</p>
     </td>
   </tr>
 </table>
