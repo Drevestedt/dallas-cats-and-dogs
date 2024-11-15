@@ -267,7 +267,7 @@ Frontend
       <img src="assets/images/test-lightspeed-food-mobile.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Some image resizing might be needed.</p>
+      <p>No major complaint.</p>
     </td>
   </tr>
   <tr>
@@ -281,7 +281,7 @@ Frontend
       <img src="assets/images/test-lightspeed-food-desktop.png" width="400px">
     </td>
      <td align="center" valign="top">
-      <p>Some image resizing might be needed.</p>
+      <p>No major complaint.</p>
     </td>
   </tr>
   <tr>
