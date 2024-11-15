@@ -4,12 +4,12 @@ This site portrays what a physical fictional Pet Store for cats and dogs offers 
 
 ## Table of contents
 
-- Wireframes
-- User-stories
-- Technologies used
-- Testing
-- Deployment
-- License
+- [Wireframes](#wireframes)
+- [User-stories](#user-stories)
+- [Technologies-used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [License](#license)
 
 ## User stories
 
@@ -19,7 +19,7 @@ I want a web page where I easily can see what the store offers before I go in an
 ### User story 2:
 I want a web page were I easily can see the opening hours and contact information.
 
-### Wireframes
+## Wireframes
 
 #### - Phone
 
