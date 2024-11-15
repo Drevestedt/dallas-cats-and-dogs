@@ -348,13 +348,13 @@ Frontend
       <p>Brave</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/Safari-test-home.png" alt="Screenshot Home page Safari" width="200px">
+       <img src="assets/images/Brave-test-home.png" alt="Screenshot Home page Brave" width="200px">
     </td>
     <td align="center" valign="top">
-       <img src="assets/images/Safari-test-food.png" alt="Screenshot Food page Safari" width="200px">
+       <img src="assets/images/Brave-test-food.png" alt="Screenshot Food page Brave" width="200px">
     </td>
     <td align="center" valign="top">
-       <img src="assets/images/Safari-test-accessories.png" alt="Screenshot Accessories page Safari" width="200px">
+       <img src="assets/images/Brave-test-accessories.png" alt="Screenshot Accessories page Brave" width="200px">
     </td>
      <td align="center" valign="top">
       <p>Work as expected</p>
@@ -365,13 +365,13 @@ Frontend
       <p>Firefox</p>
     </td>
      <td align="center" valign="top">
-       <img src="assets/images/Safari-test-home.png" alt="Screenshot Home page Safari" width="200px">
+       <img src="assets/images/Firefox-test-home.png" alt="Screenshot Home page Firefox" width="200px">
     </td>
     <td align="center" valign="top">
-       <img src="assets/images/Safari-test-food.png" alt="Screenshot Food page Safari" width="200px">
+       <img src="assets/images/Firefox-test-food.png" alt="Screenshot Food page Firefox" width="200px">
     </td>
     <td align="center" valign="top">
-       <img src="assets/images/Safari-test-accessories.png" alt="Screenshot Accessories page Safari" width="200px">
+       <img src="assets/images/Firefox-test-accessories.png" alt="Screenshot Accessories page Firefox" width="200px">
     </td>
      <td align="center" valign="top">
       <p>Work as expected</p>
