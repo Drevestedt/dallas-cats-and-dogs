@@ -37,7 +37,14 @@ body {
 }
 
 #hero h2 {
-  color: #ec6a4c;
+  background-color: rgba(31, 31, 31, 0.6);
+  color: #cd9c8a;
+}
+
+#hero p {
+  background-color: rgba(31, 31, 31, 0.6);
+  color: #f68221;
+  font-size: 120%;
 }
 
 #hero button {
@@ -46,6 +53,7 @@ body {
   border: none;
   border-radius: 0;
   margin-bottom: 6%;
+  margin-top: 0;
 }
 
 #hero button:hover {
@@ -187,7 +195,7 @@ footer p {
     color: black;
     border: none;
     border-radius: 0;
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-bottom: 4%;
   }
 
